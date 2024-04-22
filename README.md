@@ -17,14 +17,16 @@ Tutorial for Advanced Programming 2024 Module 8 - Faculty of Computer Science, U
 
 1. RabbitMQ as message broker
 
-    ![RabbitMQ as message broker](/publisher/image/RabbitMQ-1.png)
+    ![RabbitMQ as message broker](image/RabbitMQ-1.png)
 
 2. Sending and processing event
 
-    ![Publisher Terminal](/publisher/image/Publisher.png)
-    ![Subscriber Terminal](/publisher/image/Subscriber.png)
-    ![RabbitMQ Process](/publisher/image/RabbitMQ-2.png)
+    ![Publisher Terminal](image/Publisher.png)
+    ![Subscriber Terminal](image/Subscriber.png)
+    ![RabbitMQ Process](image/RabbitMQ-2.png)
 
 3. Monitoring chart based on publisher
 
-    ![RabbitMQ Chart Spike](/publisher/image/RabbitMQ-3.png)
+    ![RabbitMQ Chart Spike](image/RabbitMQ-3.png)
+
+    Spike pada RabbitMQ dipengaruhi oleh jalannya Publisher. Ketika program Publisher dijalankan berulang, bisa terjadi lonjakan _message_ yang dikirim ke dalam _queue_. Maka ketika Publisher mengirimkan _message_ dengan cepat, dapat menyebabkan _spike message rate_ di RabbitMQ.

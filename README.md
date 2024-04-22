@@ -24,3 +24,7 @@ Tutorial for Advanced Programming 2024 Module 8 - Faculty of Computer Science, U
     ![Publisher Terminal](/publisher/image/Publisher.png)
     ![Subscriber Terminal](/publisher/image/Subscriber.png)
     ![RabbitMQ Process](/publisher/image/RabbitMQ-2.png)
+
+3. Monitoring chart based on publisher
+
+    ![RabbitMQ Chart Spike](/publisher/image/RabbitMQ-3.png)

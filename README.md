@@ -17,4 +17,10 @@ Tutorial for Advanced Programming 2024 Module 8 - Faculty of Computer Science, U
 
 1. RabbitMQ as message broker
 
-![RabbitMQ as message broker](/publisher/image/RabbitMQ-1.png)
+    ![RabbitMQ as message broker](/publisher/image/RabbitMQ-1.png)
+
+2. Sending and processing event
+
+    ![Publisher Terminal](/publisher/image/Publisher.png)
+    ![Subscriber Terminal](/publisher/image/Subscriber.png)
+    ![RabbitMQ Process](/publisher/image/RabbitMQ-2.png)

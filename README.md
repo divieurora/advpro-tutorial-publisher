@@ -12,3 +12,9 @@ Tutorial for Advanced Programming 2024 Module 8 - Faculty of Computer Science, U
 2. The url of `ampq://guest:guest@localhost:5672`, is the same as in the subscriber program, what does it mean?
 
     Artinya bahwa Subscriber dan Publisher terkoneksi ke sebuah _message broker_ dengan protokol AMPQ yang sama. _Broker_ dijalankan pada mesin yang sama dengan Subscriber, yaitu pada `localhost` dengan nomor port `5672`.
+
+## RabbitMQ
+
+1. RabbitMQ as message broker
+
+![RabbitMQ as message broker](/publisher/image/RabbitMQ-1.png)
